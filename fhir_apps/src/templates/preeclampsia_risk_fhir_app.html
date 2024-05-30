@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Preeclampsia Risk Calculator</title>
+</head>
+<body>
+    <div class=container>
+        <h1>Preeclampsia Risk Calculator</h1>
+        <h2>Enter Patient Information</h2>
+
+<form action="#" method="post">
+
+    <label for="age">Age:</label>
+    <select id="age" name="age">
+        <option value="-"></option>
+        <option value="Under 18">Under 18</option>
+        <option value="18-35">18-35</option>
+        <option value="Over 35">Over 35</option>
+     
+    </select>
+    <br><br>
+
+    <label for="race">Race:</label>
+    <select id="race" name="race">
+        <option value="-"></option>
+        <option value="White">White</option>
+        <option value="Black">Black</option>
+        <option value="Asian">Asian</option>
+        <option value="Native">Native</option>
+        <option value="Hawaiian">Hawaiian</option>
+        <option value="Other">Other</option>
+    </select>
+    <br><br>
+
+    <label for="ethnicity">Ethnicity:</label>
+    <select id="ethnicity" name="ethnicity">
+        <option value="-"></option>
+        <option value="Hispanic">Hispanic</option>
+        <option value="Nonhispanic">Nonhispanic</option>
+    </select>
+    <br><br>
+
+    <label for="diabetes">Type II Diabetes:</label>
+    <select id="diabetes" name="diabetes">
+        <option value="-"></option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+    </select>
+    <br><br>
+
+    <label for="hypertension">Essential Hypertension:</label>
+    <select id="hypertension" name="hypertension">
+        <option value="-"></option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+    </select>
+    <br><br>
+
+    <!-- <label for="obesity">Obesity:</label>
+    <select id="obesity" name="obesity">
+        <option value="-"></option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+    </select>
+    <br><br> -->
+
+    <label for="eclampsia history">Personal History of Eclampsia:</label>
+    <select id="eclampsia history" name="eclampsia history">
+        <option value="-"></option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+    </select>
+    <br><br>
+
+    <label for="personal history">Personal History of Preeclampsia:</label>
+    <select id="personal history" name="personal history">
+        <option value="-"></option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+    </select>
+    <br><br>
+
+
+
+    <input type="submit" value="Submit">
+</form>
+
+        {% if result %}
+            <p>{{ result }}</p>
+        {% endif %}
+
+    </div>
+</body>
+</html>
+
+
+<style>
+    .container {
+        display: grid;
+        place-items: center;
+    }
+</style>
+
+
