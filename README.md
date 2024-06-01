@@ -4,7 +4,6 @@ This project aimed to develop an app enabling pregnant users to input their age,
 The primary goal of the project is to assist pregnant patients in gauging their risk of preeclampsia, prompting them to seek further medical guidance if necessary. It's crucial to note that the app is designed for risk assessment purposes only and does not diagnose preeclampsia. It informs patients if they may have an elevated risk based on provided data.
 While the app is still in its infancy stage, it introduces a novel approach to determining maternal risk by providing an at home assessment tool. Beyond age, race, ethnicity, diabetes, and hypertension, additional demographic and medical factors may be considered in the risk assessment in future iterations.
 
-ALL FINAL FILES ARE LOCATED IN THE final_presentation DIRECTORY OF OUR TEAM DIRECTORY (we were unable to push to github).
 
 
 ## Code files
